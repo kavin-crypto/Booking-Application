@@ -1,0 +1,109 @@
+15:44:59 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+15:44:59 [main] INFO  testcase.TestFlights - Selecting the departure location
+15:45:00 [main] INFO  testcase.TestFlights - Selecting the destination location
+15:45:02 [main] INFO  testcase.TestFlights - Selecting departure day and month
+15:45:03 [main] INFO  testcase.TestFlights - Selecting special fare
+15:45:03 [main] INFO  testcase.TestFlights - Verifying the selected location is displayed correctly
+15:45:03 [main] INFO  testcase.TestFlights - Selecting hotels
+15:45:04 [main] INFO  testcase.TestFlights - Selecting location
+15:45:05 [main] INFO  testcase.TestFlights - Selecting checkIn date
+15:45:07 [main] INFO  testcase.TestFlights - Selecting checkOut date
+15:45:08 [main] INFO  testcase.TestFlights - Selecting number of guest
+15:45:11 [main] INFO  testcase.TestFlights - Filtering
+16:39:14 [main] INFO  testcase.TestFlights - Selecting hotels
+19:14:57 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+19:14:57 [main] INFO  testcase.TestFlights - Selecting the departure location
+19:14:58 [main] INFO  testcase.TestFlights - Selecting the destination location
+19:15:00 [main] INFO  testcase.TestFlights - Selecting departure day and month
+19:15:01 [main] INFO  testcase.TestFlights - Selecting special fare
+19:15:01 [main] INFO  testcase.TestFlights - Verifying the selected location is displayed correctly
+19:15:01 [main] INFO  testcase.TestFlights - Selecting hotels
+19:15:02 [main] INFO  testcase.TestFlights - Selecting location
+19:15:03 [main] INFO  testcase.TestFlights - Selecting checkIn date
+19:15:05 [main] INFO  testcase.TestFlights - Selecting checkOut date
+19:15:06 [main] INFO  testcase.TestFlights - Selecting number of guest
+19:15:11 [main] INFO  testcase.TestFlights - Filtering
+20:03:35 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+20:03:35 [main] INFO  testcase.TestFlights - Selecting the departure location
+20:03:37 [main] INFO  testcase.TestFlights - Selecting the destination location
+20:04:06 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+20:04:06 [main] INFO  testcase.TestFlights - Selecting the departure location
+20:04:08 [main] INFO  testcase.TestFlights - Selecting the destination location
+20:04:09 [main] INFO  testcase.TestFlights - Selecting departure day and month
+20:04:11 [main] INFO  testcase.TestFlights - Selecting special fare
+20:04:11 [main] INFO  testcase.TestFlights - Verifying the selected location is displayed correctly
+20:04:11 [main] INFO  testcase.TestFlights - Selecting hotels
+20:04:11 [main] INFO  testcase.TestFlights - Selecting location
+20:04:13 [main] INFO  testcase.TestFlights - Selecting checkIn date
+20:04:14 [main] INFO  testcase.TestFlights - Selecting checkOut date
+20:04:16 [main] INFO  testcase.TestFlights - Selecting number of guest
+20:04:18 [main] INFO  testcase.TestFlights - Filtering
+10:24:18 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:24:18 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:24:43 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:24:44 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:25:16 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:25:16 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:25:51 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:25:51 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:26:39 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:26:39 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:29:18 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:29:18 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:30:36 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:30:36 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:30:59 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:30:59 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:31:00 [main] INFO  testcase.TestFlights - Selecting the destination location
+10:31:35 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:31:36 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:31:37 [main] INFO  testcase.TestFlights - Selecting the destination location
+10:31:38 [main] INFO  testcase.TestFlights - Selecting departure day and month
+10:31:38 [main] INFO  testcase.TestFlights - Selecting special fare
+10:31:38 [main] INFO  testcase.TestFlights - Verifying the selected location is displayed correctly
+10:31:38 [main] INFO  testcase.TestFlights - Selecting hotels
+10:31:39 [main] INFO  testcase.TestFlights - Selecting location
+10:31:39 [main] INFO  testcase.TestFlights - Selecting checkIn date
+10:31:40 [main] INFO  testcase.TestFlights - Selecting checkOut date
+10:31:41 [main] INFO  testcase.TestFlights - Selecting number of guest
+10:31:48 [main] INFO  testcase.TestFlights - Filtering
+10:32:40 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:32:41 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:32:42 [main] INFO  testcase.TestFlights - Selecting the destination location
+10:33:12 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:33:12 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:33:13 [main] INFO  testcase.TestFlights - Selecting the destination location
+10:33:14 [main] INFO  testcase.TestFlights - Selecting departure day and month
+10:33:15 [main] INFO  testcase.TestFlights - Selecting special fare
+10:33:15 [main] INFO  testcase.TestFlights - Verifying the selected location is displayed correctly
+10:33:15 [main] INFO  testcase.TestFlights - Selecting hotels
+10:33:16 [main] INFO  testcase.TestFlights - Selecting location
+10:33:17 [main] INFO  testcase.TestFlights - Selecting checkIn date
+10:33:17 [main] INFO  testcase.TestFlights - Selecting checkOut date
+10:33:18 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:33:18 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:33:19 [main] INFO  testcase.TestFlights - Selecting number of guest
+10:33:20 [main] INFO  testcase.TestFlights - Selecting the destination location
+10:33:22 [main] INFO  testcase.TestFlights - Filtering
+10:33:56 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+10:33:56 [main] INFO  testcase.TestFlights - Selecting the departure location
+10:33:57 [main] INFO  testcase.TestFlights - Selecting the destination location
+10:33:58 [main] INFO  testcase.TestFlights - Selecting departure day and month
+10:33:58 [main] INFO  testcase.TestFlights - Selecting special fare
+10:33:58 [main] INFO  testcase.TestFlights - Verifying the selected location is displayed correctly
+10:33:58 [main] INFO  testcase.TestFlights - Selecting hotels
+10:33:59 [main] INFO  testcase.TestFlights - Selecting location
+10:33:59 [main] INFO  testcase.TestFlights - Selecting checkIn date
+10:34:00 [main] INFO  testcase.TestFlights - Selecting checkOut date
+10:34:01 [main] INFO  testcase.TestFlights - Selecting number of guest
+10:34:04 [main] INFO  testcase.TestFlights - Filtering
+11:35:28 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+11:35:28 [main] INFO  testcase.TestFlights - Selecting the departure location
+11:36:22 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+11:36:22 [main] INFO  testcase.TestFlights - Selecting the departure location
+11:37:05 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+11:37:05 [main] INFO  testcase.TestFlights - Selecting the departure location
+11:37:06 [main] INFO  testcase.TestFlights - Selecting the destination location
+11:38:01 [main] INFO  testcase.TestFlights - Verifying whether logo is displayed or not
+11:38:01 [main] INFO  testcase.TestFlights - Selecting the departure location
+11:38:02 [main] INFO  testcase.TestFlights - Selecting the destination location

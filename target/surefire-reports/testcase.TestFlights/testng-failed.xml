@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testcase.TestFlights]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testcase.TestFlights">
+        <methods>
+          <include name="close"/>
+          <include name="FlightDeparture"/>
+          <include name="HotelLocation"/>
+          <include name="FlightDestination"/>
+          <include name="FlightData"/>
+          <include name="HotelFilters"/>
+          <include name="invoke"/>
+        </methods>
+      </class> <!-- testcase.TestFlights -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testcase.TestFlights] -->

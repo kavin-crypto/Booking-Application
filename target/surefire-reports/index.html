@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testcase_TestFlights">
+              <span class="suite-name border-failed">testcase.TestFlights</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testcase_TestFlights">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testcase_TestFlights">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testcase_TestFlights">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testcase_TestFlights">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testcase_TestFlights">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testcase_TestFlights">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testcase_TestFlights">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,  4 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testcase_TestFlights" class="hide-methods failed suite-testcase_TestFlights"> (hide)</a> <!-- hide-methods failed suite-testcase_TestFlights -->
+                      <a href="#" panel-name="suite-testcase_TestFlights" class="show-methods failed suite-testcase_TestFlights"> (show)</a> <!-- show-methods failed suite-testcase_TestFlights -->
+                    </span>
+                    <div class="method-list-content failed suite-testcase_TestFlights">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testcase_TestFlights" title="testcase.TestFlights" hash-for-method="FlightDeparture">FlightDeparture</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testcase_TestFlights -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-testcase_TestFlights" class="hide-methods skipped suite-testcase_TestFlights"> (hide)</a> <!-- hide-methods skipped suite-testcase_TestFlights -->
+                      <a href="#" panel-name="suite-testcase_TestFlights" class="show-methods skipped suite-testcase_TestFlights"> (show)</a> <!-- show-methods skipped suite-testcase_TestFlights -->
+                    </span>
+                    <div class="method-list-content skipped suite-testcase_TestFlights">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testcase_TestFlights" title="testcase.TestFlights" hash-for-method="FlightData">FlightData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testcase_TestFlights" title="testcase.TestFlights" hash-for-method="FlightDestination">FlightDestination</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testcase_TestFlights" title="testcase.TestFlights" hash-for-method="HotelFilters">HotelFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testcase_TestFlights" title="testcase.TestFlights" hash-for-method="HotelLocation">HotelLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-testcase_TestFlights -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testcase_TestFlights" class="panel testcase_TestFlights">
+          <div class="suite-testcase_TestFlights-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcase.TestFlights</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlightDeparture">
+                  </a> <!-- FlightDeparture -->
+                  <span class="method-name">FlightDeparture</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@class,&apos;desktop in&apos;)]&quot;}
+  (Session info: headless chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Kavins-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:cf5:f90c:1393:399c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/36/8x9wq3p96kj...}, goog:chromeOptions: {debuggerAddress: localhost:58761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 580d2d6bf73285525da79ff48f0d1cc1
+*** Element info: {Using=xpath, value=//*[contains(@class,&apos;desktop in&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at testcase.TestFlights.FlightDeparture(TestFlights.java:48)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testcase_TestFlights-class-failed -->
+          <div class="suite-testcase_TestFlights-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcase.TestFlights</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlightData">
+                  </a> <!-- FlightData -->
+                  <span class="method-name">FlightData</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestFlights.FlightData()[pri:0, instance:testcase.TestFlights@117e949d] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlightDestination">
+                  </a> <!-- FlightDestination -->
+                  <span class="method-name">FlightDestination</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestFlights.FlightDestination()[pri:0, instance:testcase.TestFlights@117e949d] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HotelFilters">
+                  </a> <!-- HotelFilters -->
+                  <span class="method-name">HotelFilters</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestFlights.HotelFilters()[pri:0, instance:testcase.TestFlights@117e949d] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HotelLocation">
+                  </a> <!-- HotelLocation -->
+                  <span class="method-name">HotelLocation</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestFlights.HotelLocation()[pri:0, instance:testcase.TestFlights@117e949d] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testcase_TestFlights-class-skipped -->
+        </div> <!-- panel testcase_TestFlights -->
+        <div panel-name="test-xml-testcase_TestFlights" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;testcase.TestFlights&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase.TestFlights&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- testcase.TestFlights --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testcase_TestFlights" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testcase.TestFlights</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testcase_TestFlights" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testcase.TestFlights</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testcase_TestFlights" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testcase.TestFlights</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testcase_TestFlights');
+function tableData_testcase_TestFlights() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FlightDeparture')
+data.setCell(0, 2, 'testcase.TestFlights')
+data.setCell(0, 3, 10044);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FlightDestination')
+data.setCell(1, 2, 'testcase.TestFlights')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'HotelFilters')
+data.setCell(2, 2, 'testcase.TestFlights')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'FlightData')
+data.setCell(3, 2, 'testcase.TestFlights')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'HotelLocation')
+data.setCell(4, 2, 'testcase.TestFlights')
+data.setCell(4, 3, 0);
+window.suiteTableData['testcase_TestFlights']= { tableData: data, tableDiv: 'times-div-testcase_TestFlights'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-testcase_TestFlights">
+              </div> <!-- times-div-testcase_TestFlights -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testcase_TestFlights" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testcase.TestFlights</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testcase_TestFlights" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testcase_TestFlights" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.TestFlights</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">invoke</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FlightDeparture</span>
+                <span class="method-start">1610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FlightDestination</span>
+                <span class="method-start">11660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FlightData</span>
+                <span class="method-start">11661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HotelLocation</span>
+                <span class="method-start">11661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HotelFilters</span>
+                <span class="method-start">11661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">11662 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
